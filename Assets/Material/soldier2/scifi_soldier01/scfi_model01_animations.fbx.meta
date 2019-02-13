@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: f4749ee83e1cb8f4e925f5b0edf33e16
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: b_Head1
+    100002: b_Hips
+    100004: b_LeftArm
+    100006: b_LeftFoot
+    100008: b_LeftForeArm
+    100010: b_LeftHand
+    100012: b_LeftHandIndex1
+    100014: b_LeftHandIndex2
+    100016: b_LeftHandIndex3
+    100018: b_LeftHandIndex4
+    100020: b_LeftHandMiddle1
+    100022: b_LeftHandMiddle2
+    100024: b_LeftHandMiddle3
+    100026: b_LeftHandMiddle4
+    100028: b_LeftHandPinky1
+    100030: b_LeftHandPinky2
+    100032: b_LeftHandPinky3
+    100034: b_LeftHandPinky4
+    100036: b_LeftHandRing1
+    100038: b_LeftHandRing2
+    100040: b_LeftHandRing3
+    100042: b_LeftHandRing4
+    100044: b_LeftHandThumb1
+    100046: b_LeftHandThumb2
+    100048: b_LeftHandThumb3
+    100050: b_LeftHandThumb4
+    100052: b_LeftLeg
+    100054: b_LeftShoulder
+    100056: b_LeftToeBase
+    100058: b_LeftUpLeg
+    100060: b_Neck
+    100062: b_RightArm
+    100064: b_RightFoot
+    100066: b_RightForeArm
+    100068: b_RightHand
+    100070: b_RightHandIndex1
+    100072: b_RightHandIndex2
+    100074: b_RightHandIndex3
+    100076: b_RightHandIndex4
+    100078: b_RightHandMiddle1
+    100080: b_RightHandMiddle2
+    100082: b_RightHandMiddle3
+    100084: b_RightHandMiddle4
+    100086: b_RightHandPinky1
+    100088: b_RightHandPinky2
+    100090: b_RightHandPinky3
+    100092: b_RightHandPinky4
+    100094: b_RightHandRing1
+    100096: b_RightHandRing2
+    100098: b_RightHandRing3
+    100100: b_RightHandRing4
+    100102: b_RightHandThumb1
+    100104: b_RightHandThumb2
+    100106: b_RightHandThumb3
+    100108: b_RightHandThumb4
+    100110: b_RightLeg
+    100112: b_RightShoulder
+    100114: b_RightToeBase
+    100116: b_RightUpLeg
+    100118: b_Root_Character
+    100120: b_Spine
+    100122: b_Spine1
+    100124: b_Spine2
+    100126: //RootNode
+    100128: SF_Soldier
+    100130: transform1
+    400000: b_Head1
+    400002: b_Hips
+    400004: b_LeftArm
+    400006: b_LeftFoot
+    400008: b_LeftForeArm
+    400010: b_LeftHand
+    400012: b_LeftHandIndex1
+    400014: b_LeftHandIndex2
+    400016: b_LeftHandIndex3
+    400018: b_LeftHandIndex4
+    400020: b_LeftHandMiddle1
+    400022: b_LeftHandMiddle2
+    400024: b_LeftHandMiddle3
+    400026: b_LeftHandMiddle4
+    400028: b_LeftHandPinky1
+    400030: b_LeftHandPinky2
+    400032: b_LeftHandPinky3
+    400034: b_LeftHandPinky4
+    400036: b_LeftHandRing1
+    400038: b_LeftHandRing2
+    400040: b_LeftHandRing3
+    400042: b_LeftHandRing4
+    400044: b_LeftHandThumb1
+    400046: b_LeftHandThumb2
+    400048: b_LeftHandThumb3
+    400050: b_LeftHandThumb4
+    400052: b_LeftLeg
+    400054: b_LeftShoulder
+    400056: b_LeftToeBase
+    400058: b_LeftUpLeg
+    400060: b_Neck
+    400062: b_RightArm
+    400064: b_RightFoot
+    400066: b_RightForeArm
+    400068: b_RightHand
+    400070: b_RightHandIndex1
+    400072: b_RightHandIndex2
+    400074: b_RightHandIndex3
+    400076: b_RightHandIndex4
+    400078: b_RightHandMiddle1
+    400080: b_RightHandMiddle2
+    400082: b_RightHandMiddle3
+    400084: b_RightHandMiddle4
+    400086: b_RightHandPinky1
+    400088: b_RightHandPinky2
+    400090: b_RightHandPinky3
+    400092: b_RightHandPinky4
+    400094: b_RightHandRing1
+    400096: b_RightHandRing2
+    400098: b_RightHandRing3
+    400100: b_RightHandRing4
+    400102: b_RightHandThumb1
+    400104: b_RightHandThumb2
+    400106: b_RightHandThumb3
+    400108: b_RightHandThumb4
+    400110: b_RightLeg
+    400112: b_RightShoulder
+    400114: b_RightToeBase
+    400116: b_RightUpLeg
+    400118: b_Root_Character
+    400120: b_Spine
+    400122: b_Spine1
+    400124: b_Spine2
+    400126: //RootNode
+    400128: SF_Soldier
+    400130: transform1
+    4300000: SF_Soldier
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: SF_Soldier
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SF_Soldier_Body
+    second: {fileID: 2100000, guid: 50df812a18f95c949a113cc94900efd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SF_Soldier_HelmetVisor
+    second: {fileID: 2100000, guid: f11b60479b4e74b4781c276f7cf7d2ac, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 70
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
