@@ -19,7 +19,7 @@ Shader "MingShader/NormalMapWorldSpace" {
 			Tags{"LightMode" = "ForwardBase"}
 			Tags{"RenderType" = "Opaque"}
 			CGPROGRAM
-			//光照变量定义内置文件z
+			//光照变量定义内置文件
 			#include "Lighting.cginc"
 			#include "UnityCG.cginc"
 			#pragma vertex vert

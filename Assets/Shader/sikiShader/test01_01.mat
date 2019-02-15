@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: test01_01
   m_Shader: {fileID: 4800000, guid: df4dbf439fff60346a7219b0ce857b35, type: 3}
   m_ShaderKeywords: 
@@ -81,6 +82,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Range: 1
+    - _Shininess: 71.2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -88,6 +90,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Diffuse: {r: 1, g: 0.5808823, b: 0.5808823, a: 1}
+    - _Diffuse: {r: 0, g: 0.67422724, b: 1, a: 0.7254902}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
     - _Vector: {r: 1, g: 2, b: 3.4, a: 1}
