@@ -30,11 +30,13 @@ Shader "MingShader/MotionBlur"
 			}
 
 			fixed4 fragRGB(v2f i) : SV_Target {
-				return fixed4(tex2D(_MainTex, i.uv).rgb, _BlurAmount);
+				///return fixed4(tex2D(_MainTex, i.uv).rgb, _BlurAmount);
+				return fixed4(0.3, 0.3, 0.3, _BlurAmount);
 			}
 
-			half4 fragA(v2f i) : SV_Target {
-				return tex2D(_MainTex, i.uv);
+			fixed4 fragA(v2f i) : SV_Target {
+				//return tex2D(_MainTex, i.uv);
+				return fixed4(0.5,1,1,_BlurAmount);
 			}
 
 			ENDCG
@@ -58,7 +60,7 @@ Shader "MingShader/MotionBlur"
 			Pass{
 				//混合结果：源颜色A×1 + colorBuffer.RGB*0
 				Blend One Zero
-				ColorMask GBA
+				ColorMask A
 
 				CGPROGRAM
 				#pragma vertex vert  

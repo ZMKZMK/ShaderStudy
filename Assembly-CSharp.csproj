@@ -107,6 +107,7 @@
     <Compile Include="Assets\Material\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Shader\UnityBook\AdvancedTexture\Refraction\RenderCubeMapInRuntime.cs" />
     <Compile Include="Assets\Shader\UnityBook\AdvancedTexture\RenderToCubemap.cs" />
+    <Compile Include="Assets\Shader\UnityBook\DepthAndNormalTexture\MotionBlur\MotionBlurWithDepthTexture.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\Bloom\Bloom.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\BrightnessSaturationAndContrast\BrightnessSaturationAndContrast.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\EdgeDetection\EdgeDetection.cs" />
@@ -141,6 +142,7 @@
     <None Include="Assets\Shader\UnityBook\AdvancedTexture\MirrorEffect\Mirror.shader" />
     <None Include="Assets\Shader\UnityBook\TextureMapping\NormalMapTangentSpace.shader" />
     <None Include="Assets\Material\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Shader\UnityBook\DepthAndNormalTexture\MotionBlur\MotionBlurWithDepthTexture.shader" />
     <None Include="Assets\Shader\UnityBook\AdvancedTexture\GlassEffect\GlassRefraction.shader" />
     <None Include="Assets\Material\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Shader\sikiShader\test01_05HalfLambertModel.shader" />
