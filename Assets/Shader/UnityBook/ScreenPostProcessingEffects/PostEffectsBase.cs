@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Ming
 {
@@ -8,12 +9,19 @@ namespace Ming
     [RequireComponent(typeof(Camera))]
     public class PostEffectsBase : MonoBehaviour
     {
+        private Material material = null;
+
         #region Mono
-        protected void Start()
+        protected void Awake()
         {
             CheckResources();
         }
 
+        protected void OnDestroy()
+        {
+            if (material != null)
+                DestroyImmediate(material);
+        }
         #endregion
 
         #region Check
@@ -68,6 +76,7 @@ namespace Ming
             else
             {
                 material = new Material(shader);
+                this.material = material;
                 material.hideFlags = HideFlags.DontSave;
                 if (material)
                     return material;

@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Unlit/MotionBlurWithDepthTexture"
+Shader "MingShader/MotionBlurWithDepthTexture"
 {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
@@ -44,8 +44,8 @@ Shader "Unlit/MotionBlurWithDepthTexture"
 				float depth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, i.uv_depth);
 				// depth[0,1] = 0.5*depthInNDC + 0.5 =>> depthNDC[-1,1] = (depth - 0.5)/0.5 = depth*2 + 1
 				// i.uv.xy纹理坐标充当为视口坐标[0,1] =>> i.uv.xy*2 - 1 = NDC坐标下的xy[-1,1]
-				float4 currentNDCPos = float4(i.uv.x * 2 - 1, i.uv.y * 2 - 1, depth  * 2 - 1, 1);
-				//float4 currentNDCPos = float4((i.pos.x * _MainTex_TexelSize.x) * 2 - 1, (i.pos.y * _MainTex_TexelSize.y) * 2 - 1, d * 2 - 1, 1);
+				//float4 currentNDCPos = float4(i.uv.x * 2 - 1, i.uv.y * 2 - 1, depth  * 2 - 1, 1);
+				float4 currentNDCPos = float4((i.pos.x * _MainTex_TexelSize.x) * 2 - 1, (i.pos.y * _MainTex_TexelSize.y) * 2 - 1, depth * 2 - 1, 1);
 				// Transform by the view-projection inverse.获得当前当前像素的世界坐标
 				float4 tempWorldPos = mul(_CurrentViewProjectionInverseMatrix, currentNDCPos);
 				// 证明过程：http://feepingcreature.github.io/math.html

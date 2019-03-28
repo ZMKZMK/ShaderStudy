@@ -30,13 +30,11 @@ Shader "MingShader/MotionBlur"
 			}
 
 			fixed4 fragRGB(v2f i) : SV_Target {
-				///return fixed4(tex2D(_MainTex, i.uv).rgb, _BlurAmount);
-				return fixed4(0.3, 0.3, 0.3, _BlurAmount);
+				return fixed4(tex2D(_MainTex, i.uv).rgb, _BlurAmount);
 			}
 
 			fixed4 fragA(v2f i) : SV_Target {
-				//return tex2D(_MainTex, i.uv);
-				return fixed4(0.5,1,1,_BlurAmount);
+				return tex2D(_MainTex, i.uv);
 			}
 
 			ENDCG

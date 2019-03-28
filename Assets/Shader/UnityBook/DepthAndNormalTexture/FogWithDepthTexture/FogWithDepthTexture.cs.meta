@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fad3072fe4e893c41b81417081d05e3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fogShader: {fileID: 4800000, guid: 9ee6741dc86a79e49899731037c0b942, type: 3}
+  - fogMaterial: {instanceID: 0}
+  - myCamera: {instanceID: 0}
+  - myCameraTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
