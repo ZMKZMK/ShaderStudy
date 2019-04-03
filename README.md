@@ -1,3 +1,3 @@
-### 学习shader的工程文件
+### Same Simple Effect by UnityShader Based on UnityEngine
 ------
-#### 争取早日实现崩三画面效果
+#### 
