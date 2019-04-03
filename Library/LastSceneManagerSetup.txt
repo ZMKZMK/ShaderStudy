@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/UnityBookScene/DepthAndNormalTex.unity
+- path: Assets/Scene/UnityBookScene/Noise.unity
   isLoaded: 1
   isActive: 1

@@ -112,6 +112,7 @@
     <Compile Include="Assets\Shader\UnityBook\DepthAndNormalTexture\FogWithDepthTexture\FogWithDepthTexture.cs" />
     <Compile Include="Assets\Shader\UnityBook\DepthAndNormalTexture\MotionBlur\MotionBlurWithDepthTexture.cs" />
     <Compile Include="Assets\Shader\UnityBook\DepthAndNormalTexture\MotionBlurAlone\MotionBlurAlone.cs" />
+    <Compile Include="Assets\Shader\UnityBook\Noise\DissolveEffect\DissolveEffect.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\Bloom\Bloom.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\BrightnessSaturationAndContrast\BrightnessSaturationAndContrast.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\EdgeDetection\EdgeDetection.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\MotionBlur\MotionBlur.cs" />
     <Compile Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\PostEffectsBase.cs" />
     <Compile Include="Assets\Shader\UnityBook\SetPropertyAttribute.cs" />
+    <None Include="Assets\Shader\UnityBook\Common\BumpedDiffuse.shader" />
     <None Include="Assets\Shader\sikiShader\test01_02.shader" />
     <None Include="Assets\Shader\sikiShader\test01_03UseStruct.shader" />
     <None Include="Assets\Shader\UnityBook\AlphaEffect\AlphaBlendWithZWrite.shader" />
@@ -134,6 +136,7 @@
     <None Include="Assets\Shader\UnityBook\AlphaEffect\AlphaBlend.shader" />
     <None Include="Assets\Shader\UnityBook\AdvancedTexture\EdgeOfLightByFresnelReflection\EdgeOfLightByFresnelRection.shader" />
     <None Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\EdgeDetection\EdgeDetection.shader" />
+    <None Include="Assets\Shader\UnityBook\Noise\DissolveEffect\DissolveEffect.shader" />
     <None Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\GaussianBlur\GaussianBlur.shader" />
     <None Include="Assets\Shader\UnityBook\5.0\Chapter5-SimpleShader.shader" />
     <None Include="Assets\Shader\UnityBook\TextureMapping\SingleTexture.shader" />
@@ -154,6 +157,7 @@
     <None Include="Assets\Shader\UnityBook\AdvancedTexture\GlassEffect\GlassRefraction.shader" />
     <None Include="Assets\Shader\UnityBook\DepthAndNormalTexture\EdgeDetectWithNormalAndDepthAlone\EdgeDetectWithNormalAndDepthAlone.shader" />
     <None Include="Assets\Material\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Shader\UnityBook\Common\BumpedSpecular.shader" />
     <None Include="Assets\Shader\sikiShader\test01_05HalfLambertModel.shader" />
     <None Include="Assets\Material\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Shader\UnityBook\ScreenPostProcessingEffects\Bloom\Bloom.shader" />

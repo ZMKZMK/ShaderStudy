@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Unlit/EdgeDetectWithNormalAndDepth"
+Shader "MingShader/EdgeDetectWithNormalAndDepth"
 {
 	Properties{
 		_MainTex("Base (RGB)", 2D) = "white" {}
